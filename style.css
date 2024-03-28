@@ -1,24 +1,33 @@
 header{
     background-color: #1C1C1C;
-    margin: 0px;
+    width: auto;
+    display: flex;
+    padding-left: 150px;
     
 }
-a{ 
+a {
+    width: 61px;
+    height: 18px;
     text-align: right;
-    color: #FFFFFF;
-    text-decoration: none;
-    left: 808px;;
     font: normal normal normal 14px/17px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
 }
 main{
     background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A1d0e71a5-c99e-4efd-b540-f75e6b91aa1b&params=version%3A0&token=1711712713_da39a3ee_c7586461d3b9ba271529cb25d381c19826aa6538&api_key=CometServer1");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    width: 1887px;
+    width: auto;
     height: 639px;
     text-align: 150px;
+    padding-left: 150px;
     
+}
+.socmedia{
+    padding-left: 150px;
 }
 h1 {
     top: 268px;
@@ -66,9 +75,10 @@ article{
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    width: 1887px;
+    width: auto;
     height: 639px;
     text-align: 150px;
+    padding-left: 150px;
 }
 h2{
     top: 966px;
@@ -95,10 +105,11 @@ h2{
 section{
     top: 1411px;
     left: 0px;
-    width: 1887px;
+    width: auto;
     height: 596px;
     background: #1C1C1C 0% 0% no-repeat padding-box;
     opacity: 1;
+    padding-left: 150px;
 }
 h3 {
     top: 1501px;
@@ -139,4 +150,5 @@ footer{
     height: 124px;
     background: #1C1C1C 0% 0% no-repeat padding-box;
     opacity: 1;
+    padding-left: 139px;
 }
