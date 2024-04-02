@@ -82,14 +82,19 @@ button {
     opacity: 1;
 }
 article{
-    background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A9acae50d-75e5-431e-bfc6-ff7738e64b76&params=version%3A0&token=1711712713_da39a3ee_c7586461d3b9ba271529cb25d381c19826aa6538&api_key=CometServer1");
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    top: 816px;
+    left: 0px;
+    width: 1400px;
+    height: 595px;
     width: auto;
-    height: 639px;
-    text-align: 150px;
-    padding-left: 150px;
+    background: transparent linear-gradient(270deg, #6696E2 0%, #E27866 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.42;
+    background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A9acae50d-75e5-431e-bfc6-ff7738e64b76&params=version%3A0&token=1712157192_da39a3ee_05fa48996587238baaf8edd8dbff128fc0575e52&api_key=CometServer1");
+   
+}
+.Tabs-register {
+    padding-left: 305px;
+    padding-top: 150px;
 }
 h2{
     top: 966px;
