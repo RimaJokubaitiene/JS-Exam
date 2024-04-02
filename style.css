@@ -187,9 +187,29 @@ h3 {
 
 
 
+.contact-us{
+    top: 4073px;
+    left: 0px;
+    width: auto;
+    height: 573px;
+    background: #E27866 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.contact-titel {
 
-
-
+    text-align: center;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.contact-text{
+    text-align: center;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
 
 .footer{
     background: #1C1C1C 0% 0% no-repeat padding-box;
@@ -211,5 +231,5 @@ h3 {
     font: normal normal normal 18px/14px Montserrat;
     opacity: 0.5;
     letter-spacing: 0px;
-    
+
 }
