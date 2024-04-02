@@ -26,10 +26,11 @@ a {
     height: 52px;
 }
 main{
-    background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A1d0e71a5-c99e-4efd-b540-f75e6b91aa1b&params=version%3A0&token=1711712713_da39a3ee_c7586461d3b9ba271529cb25d381c19826aa6538&api_key=CometServer1");
+    background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A1d0e71a5-c99e-4efd-b540-f75e6b91aa1b&params=version%3A0&token=1712157192_da39a3ee_05fa48996587238baaf8edd8dbff128fc0575e52&api_key=CometServer1");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    box-shadow: inset 0 0 0 2000px rgba(25, 28, 28, 0.63);
     width: auto;
     height: 639px;
     text-align: 150px;
