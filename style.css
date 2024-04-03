@@ -126,7 +126,7 @@ input {
     text-align: left;
     font: normal normal normal 12px/24px Montserrat;
     letter-spacing: 0px;
-    color: #3a3838;
+    color: #222020;
     opacity: 1;
     border: none; 
     border-bottom: 1px solid #D8D8D8;
@@ -136,13 +136,20 @@ input {
 }    
 .input {
     padding-left: 51px;
-}    
+} 
+.option {
+    width: 15px;
+    margin-left: 51px;
+}   
 .socmedia{
     padding-left: 150px;
     margin: 0;
     display: flex;
     align-items: center;
 
+}
+label {
+    font-size: 11px;
 }
 .logo img {
     padding-right: 60px;
@@ -199,22 +206,37 @@ article{
     height: 595px;
     background-repeat: no-repeat; 
     width: auto;
-    background: transparent linear-gradient(270deg, #080b11 0%, #4d2720 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #676b74 0%, #4d2720 50%) 0% 0% no-repeat padding-box;
     opacity: 0.42;
     background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A9acae50d-75e5-431e-bfc6-ff7738e64b76&params=version%3A0&token=1712157192_da39a3ee_05fa48996587238baaf8edd8dbff128fc0575e52&api_key=CometServer1");
     background-position: top left;
+    display: flex;
 }
 .tabs-button{
     padding-left: 151px;
     padding-top: 127px;
+    padding-right: 54px;
+}
+.tabs {
     width: 100px;
     height: 100px;
-   background: transparent url('img/tab_1_button_u83_selected.png') 0% 0% no-repeat padding-box;
-   box-shadow: 0px 3px 6px #00000029;
+    background: transparent url('img/tab_1_button_u83_selected.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    background-color: #A37169;
+    margin-bottom: 20px;
+    text-align: left;
+    font: normal normal 600 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
     opacity: 1;
 }
+.span-tabs {
+    transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+}
 .Tabs-register {
-    padding-left: 305px;
+    /*padding-left: 305px;*/
+    padding-top: 150px;
 }
 h2{
     top: 966px;
@@ -238,6 +260,9 @@ h2{
     color: #FFFFFF;
     opacity: 1;
 }
+.tabs-galery {
+    padding-top: 114px;
+}
 section{
     top: 1411px;
     left: 0px;
@@ -246,6 +271,16 @@ section{
     background: #1C1C1C 0% 0% no-repeat padding-box;
     opacity: 1;
     padding-left: 150px;
+    display: flex;
+}
+.section-logo {
+    width: 389px;
+    height: 169px;
+    padding-top: 213px;
+    padding-right: 167px;
+}
+.section-text {
+    padding-top: 90px;
 }
 h3 {
     top: 1501px;
@@ -269,6 +304,11 @@ h3 {
     color: #FFFFFF;
     opacity: 1;
 }
+
+
+
+
+
 
 .feedback {
     height: 591px;
