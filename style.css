@@ -39,8 +39,7 @@ main{
     text-align: 150px;
     padding-left: 150px;
     padding-top: 66.67px;
-
-    
+    display: flex;
 }
 .line img {
     width: 67px;
@@ -61,12 +60,15 @@ main{
     opacity: 1;
     text-align: center;
     padding-top: 17px;
+    margin-bottom: 0;
+    border: none;
 }
 .started {
     width: 360px;
     height: 57px;
     background: #41D395 0% 0% no-repeat padding-box;
     border-radius: 0px 0px 5px 5px;
+    border: none;
     opacity: 1;
     text-align: left;
     font: normal normal 600 18px/24px Montserrat;
@@ -81,17 +83,33 @@ main{
     letter-spacing: 0px;
     color: #1C1C1C;
     opacity: 1;
-
-
+    margin: 0;
+    padding-left: 51px;
+    padding-top: 30px;
 }
 .form-inside {
     background: white;
     height: 310px;
     width: 360px;
+    margin-top: 0;
 }
-
-
-
+.type{
+    text-align: left;
+    font: normal normal 600 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+    padding-left: 51px;
+}
+ul li {
+    display: flex;
+    list-style-type: circle, ;
+    
+}
+li{
+    padding-left: 35px;
+    
+}
 .socmedia{
     padding-left: 150px;
     margin: 0;
