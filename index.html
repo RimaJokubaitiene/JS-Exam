@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.google.com/">
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com">
+    <link rel="stylesheet"href="https://fonts.google.com/specimen/Montserrat?query=monts" >
     <link rel="stylesheet" href="style.css">
+    <link  >
     <title>Cheshire County Hygiene Services</title>
 </head>
 <body>
@@ -12,6 +15,7 @@
         <div class="navimg">
           <img src="file:///C:/Users/Asus/Downloads/cheshire-county-hygiene-services%20(3).svg">
         </div>
+        <div id="burger"></div>
         <div class="nav">
            <nav>
                <a href="Features">Features</a>
@@ -20,6 +24,15 @@
                <a href="Reviews">Reviews</a>
                <a href="Contact">Contact</a>
           </nav>
+        </div>
+        <div id="nav-mobile" class="nav-mobile">
+          <nav>
+            <a href="Features">Features</a>
+            <a href="About">About</a>
+            <a href="Pricing">Pricing</a>
+            <a href="Reviews">Reviews</a>
+            <a href="Contact">Contact</a>
+         </nav>
         </div>
     </header>
     <main>
@@ -36,28 +49,36 @@
         <button class="downloads">DOWNLOADS</button>
       </div>
       <div class="form-tab">
-        <p class="form">Try Your FREE Trial Today</p>
-        <div class="form-inside">
+        <p class="form">Try Your <span> FREE </span> Trial Today</p>
+        <form class="form-inside">
           <p class="details">Your details</p>
+          <div class="input">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="number" placeholder="Phone number">
+          </div>  
           <p class="type">Type of subscription</p>
-         <ul>
-            <li>MONTHLY</li>
-            <li>YEARLY</li>
-         </ul>
-        </div>
-       <button class="started">GET STARTED</button>
+         <label>
+            <input type="radio" name="subscription" value="monyhly"/>MONTHLY
+         </label>
+         <label>
+           <input type="radio" name="subscription" value="yearly"/>YEARLY
+         </label>
+        </form>
+       <button type="submit" class="started">GET STARTED</button>
       </div>
     </main>
-    <div class="socmedia">
+    <div id="Features" class="socmedia">
         <div>
           <h4>Social Media</h4>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br> Aenean euismod bibendum laoreet.</p>
         </div>
         <div class="logo">
-          <img src="file:///C:/Users/Asus/Downloads/facebook-logo%20(1).svg">
-          <img src="file:///C:/Users/Asus/Downloads/instagram-logo.svg">
-          <img src="file:///C:/Users/Asus/Downloads/twitter.svg">
-          <img src="file:///C:/Users/Asus/Downloads/pinterest.svg">
+          <img src="file:///C:/Users/Asus/Downloads/facebook-logo%20(1).svg" alt="facebook">
+          <img src="file:///C:/Users/Asus/Downloads/instagram-logo.svg" alt="instagram">
+          <img src="file:///C:/Users/Asus/Downloads/twitter.svg" alt="twitter">
+          <img src="file:///C:/Users/Asus/Downloads/pinterest.svg" alt="pinterestc">
+          <img src="file:///C:/Users/Asus/Downloads/pinterest.svg" alt="pinterestc">
         </div>
     </div>
     <article>
@@ -120,6 +141,7 @@
         <img src="file:///C:/Users/Asus/Downloads/facebook-logo%20(1).svg" alt="facebook">
         <img src="file:///C:/Users/Asus/Downloads/instagram-logo.svg" alt="instagram">
         <img src="file:///C:/Users/Asus/Downloads/twitter.svg" alt="twitter">
+        <img src="file:///C:/Users/Asus/Downloads/pinterest.svg" alt="pinterestc">
         <img src="file:///C:/Users/Asus/Downloads/pinterest.svg" alt="pinterestc">
       </div>
       <div class="footer-text">

@@ -28,6 +28,9 @@ a {
     width: 119px;
     height: 52px;
 }
+.nav-mobile {
+    display: none;
+}
 main{
     background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A1d0e71a5-c99e-4efd-b540-f75e6b91aa1b&params=version%3A0&token=1712157192_da39a3ee_05fa48996587238baaf8edd8dbff128fc0575e52&api_key=CometServer1");
     background-size: cover; 
@@ -48,6 +51,10 @@ main{
     padding-bottom: 20px;
     color: #FFFFFF;
 }
+.form-tab {
+    padding-left: 70px;
+
+}
 .form{
     width: 360px;
     height: 57px;
@@ -62,6 +69,9 @@ main{
     padding-top: 17px;
     margin-bottom: 0;
     border: none;
+}
+span {
+    color: rgb(240, 64, 64);
 }
 .started {
     width: 360px;
@@ -86,6 +96,7 @@ main{
     margin: 0;
     padding-left: 51px;
     padding-top: 30px;
+    padding-bottom: 15px;
 }
 .form-inside {
     background: white;
@@ -110,6 +121,22 @@ li{
     padding-left: 35px;
     
 }
+input {
+    width: 260px;
+    text-align: left;
+    font: normal normal normal 12px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #3a3838;
+    opacity: 1;
+    border: none; 
+    border-bottom: 1px solid #D8D8D8;
+    outline: none; 
+    opacity: 1;
+    margin-bottom: 15px;
+}    
+.input {
+    padding-left: 51px;
+}    
 .socmedia{
     padding-left: 150px;
     margin: 0;
@@ -118,7 +145,7 @@ li{
 
 }
 .logo img {
-    padding-right: 80px;
+    padding-right: 60px;
 }
 h4{
     font: normal normal 600 20px/24px Montserrat;
@@ -148,7 +175,7 @@ P {
     top: 422px;
     left: 150px;
     width: 651px;
-    height: 65px;
+    /*height: 65px;*/
     text-align: left;
     font: normal normal 600 16px/23px Montserrat;
     letter-spacing: 0px;
