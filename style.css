@@ -280,7 +280,7 @@ h2{
     padding-right: 167px;
 }
 .section-text {
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 89px;
 }
 h3 {
@@ -378,6 +378,32 @@ h5 {
 .column img {
     padding-left: 223px;
 }
+.pricing-options {
+    height: 883px;
+    width: auto;
+    background-color: #6696E2;
+}
+.h5option {
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 531px;
+}
+.options-name img {
+    padding-left: 668px;
+}
+.text6 {
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 535px;
+}
+.pricing-cards {
+    display: flex;
+}
+
 
 
 
