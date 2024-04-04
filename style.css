@@ -1,12 +1,13 @@
 header{
-    background-color: #1C1C1C;
-    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 148px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1400px;
+    background-color: #1C1C1C; 
+    z-index: 1000;  
 }
 a {
     display: flex; 
@@ -17,11 +18,14 @@ a {
     opacity: 1;
     text-decoration: none;
     display: inline;
-    transition:  0,5s ease;
 
 }
-.navimg {
+.nav {
+    padding-right: 147px;
     
+}
+.navimg {
+    padding-left: 147px;
     padding-top: 10px;
     padding-bottom: 9.94px;
     left: 147px;
@@ -495,7 +499,7 @@ h5 {
    align-items: center; 
 }
 .feedback {
-    height: 591px;
+    height: 491px;
 }
 .feedback-titel{
     padding-left: 182px;
