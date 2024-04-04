@@ -68,7 +68,7 @@
        <button type="submit" class="started">GET STARTED</button>
       </div>
     </main>
-    <div id="Features" class="socmedia">
+    <div class="socmedia">
         <div>
           <h4>Social Media</h4>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br> Aenean euismod bibendum laoreet.</p>
@@ -83,13 +83,27 @@
     </div>
     <article>
       <div id="About" class="tabs-button">
-        <div class="tabs"><span class="span-tabs">REGISTER</span></div>
-        <div class="tabs"><span class="span-tabs">APPLY</span></div>
-        <div class="tabs"><span class="span-tabs">RECEIVE</span></div>
+        <div class="tabs" onclick="showTab('Tabs-register')"><span class="span-tabs">REGISTER</span></div>
+        <div class="tabs" onclick="showTab('Tabs-apply')"><span class="span-tabs">APPLY</span></div>
+        <div class="tabs" onclick="showTab('Tabs-receive')"><span class="span-tabs">RECEIVE</span></div>
       </div>
       <div class="Tabs-register">
         <h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2>
         <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
+          Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. 
+          Cum sociis natoque penatibus et magnis dis parturient montes.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+        </p>
+      </div>
+      <div class="Tabs-apply">
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
+        <p class="text2">Nemo odio, eligendi fugiat labore et ex rerum enim libero illum quo, iusto, 
+          eius voluptatem obcaecati! Amet accusantium rem quos esse molestias!
+        </p>
+      </div>
+      <div class="Tabs-receive">
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
+        <p class="text2"> Aenean euismod bibendum laoreet. 
           Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. 
           Cum sociis natoque penatibus et magnis dis parturient montes.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
@@ -135,7 +149,7 @@
         </div>
       </div>
     </section>
-    <section class="section-two">
+    <section id="Features" class="section-two">
       <h5>WHY THIS IS AWESOME</h5>
       <img src="file:///C:/Users/Asus/Downloads/divider_orange_u7%20copy%202%20(1).svg" alt="Linie">
       <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

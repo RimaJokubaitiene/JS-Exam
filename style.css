@@ -271,6 +271,17 @@ h2{
     padding-top: 114px;
 
 }
+.Tabs-apply, .Tabs-receive {
+    display: none;
+}
+.Tabs-apply{
+    padding-top: 150px;
+    margin: 0;
+}
+.Tabs-receive {
+    padding-top: 150px;
+    margin: 0;
+}
 .section-one{
     top: 1411px;
     left: 0px;
