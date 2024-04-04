@@ -1,8 +1,11 @@
+//  Scroll //
+
 function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: 'smooth' });
 }
 
+//  Tabu rodymas //
 
 function showTab(tabName) {
     
@@ -22,4 +25,57 @@ function showTab(tabName) {
   
     const selectedImage = document.querySelector(`.${tabName} img`);
     selectedImage.style.display = 'block';
+}
+
+// Lentelės validacija //
+
+function submitForm(event) {
+  event.preventDefault();
+
+  const firstName = document.querySelector('input[placeholder="First name"]').value;
+  const lastName = document.querySelector('input[placeholder="Last name"]').value;
+  if (firstName === '' || lastName === '') {
+    alert('Please enter your first and last name.');
+    return;
+  }
+
+  const phoneNumber = document.querySelector('input[placeholder="Phone number"]').value;
+  if (isNaN(phoneNumber) || phoneNumber === '') {
+    alert('Please enter a valid phone number.');
+    return;
+  }
+
+  const subscriptionType = document.querySelector('input[name="subscription"]:checked');
+  if (!subscriptionType) {
+    alert('Please select a subscription type.');
+    return;
+  }
+
+  const formData = {
+    firstName: firstName,
+    lastName: lastName,
+    phoneNumber: phoneNumber,
+    subscriptionType: subscriptionType.value
+  };
+
+  fetch('backend_url', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(formData),
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+
+    console.log('Success:', data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
 }
