@@ -542,6 +542,11 @@ h5 {
     background: #E27866 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.green-linie {
+    width: 343px;
+    height: 6px;
+    background-color: #41D395;
+}
 .contact-titel {
    text-align: center;
     text-align: center;
@@ -588,12 +593,14 @@ h5 {
 .footer-img img{
     padding-top: 52px;
     float: left;
-    width: 20px;
+    width: 24px;
     height: 20px;
-    padding-right: 117px;   
+    padding-right: 117px; 
+    padding-bottom: 51px; 
 }
 .footer-text {
     padding-top: 32px;
+    padding-right: 106px;
     float: right;
     color: #FFFFFF;
     font: normal normal normal 18px/14px Montserrat;
