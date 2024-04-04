@@ -467,6 +467,9 @@ h5 {
     background-color: #41D395;
     width: 343px;
     height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
 }
 .card-flex {
     display: flex;
