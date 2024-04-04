@@ -181,7 +181,7 @@ h1 {
 P {
     top: 422px;
     left: 150px;
-    width: 651px;
+    /*width: 651px;*/
     /*height: 65px;*/
     text-align: left;
     font: normal normal 600 16px/23px Montserrat;
@@ -400,11 +400,79 @@ h5 {
     opacity: 1;
     padding-left: 535px;
 }
-.pricing-cards {
+.card-flex {
     display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   margin-left: 146px;
+   margin-right: 100px;
+   padding-top: 50px;
 }
-
-
+.pricing-cards {
+    margin-right: 10px;
+}  
+.card {
+    height: 210px;
+    width: 343px;
+    background-color: #2e2d2d;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 5px;
+}
+.card-name {
+    padding-top: 14px;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+}
+.text7 {
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-align: center;
+}
+.sing {
+    padding-left: 139px;
+    color: #FFFFFF;
+    font-size: 35px; 
+}
+.zero {
+    color: #FFFFFF;
+    font-size: 65px;
+}
+.card-body {
+    height: 260px;
+    width: 343px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+}
+.text8 {
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    opacity: 1;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+.insert-green {
+    text-align: center;
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #41D395;
+    width: 343px;
+    height: 40px;
+}
+.card-flex {
+    display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
 
 
 
