@@ -340,12 +340,13 @@ h3 {
     opacity: 1;
 }
 h6 {
-    text-align: center;
     font: normal normal 600 14px/17px Montserrat;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
     text-align: left;
+    margin: 0;
+    padding-top: 15px;
 }
 .title {
     text-align: left;
@@ -356,6 +357,10 @@ h6 {
 }
 .title-cont {
     display: flex;
+    align-items: center;
+}
+.title-flex {
+
 }
 .icon {
     background-color: #E27866;
@@ -550,6 +555,8 @@ h5 {
     letter-spacing: 0px;
     color: #333333;
     opacity: 1;
+    margin: 0;
+    margin-top: 15px;
 }
 .profession {
     text-align: left;
@@ -557,9 +564,14 @@ h5 {
     letter-spacing: 0px;
     color: #86878B;
     opacity: 1;
+    margin: 0;
 }
 .costumers-card {
     display: flex;
+}
+.costumers-card img{
+    width: 70px;
+    height: 70px;
 }
 .costumer-flex {
     padding-left: 15px;
