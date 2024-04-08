@@ -20,7 +20,7 @@ a {
     display: inline;
 
 }
-.nav {
+.nav-desktop {
     padding-right: 147px;
     
 }
@@ -189,11 +189,9 @@ h1 {
     color: #FFFFFF;
     opacity: 1;
 }
-P {
+p {
     top: 422px;
     left: 150px;
-    /*width: 651px;*/
-    /*height: 65px;*/
     text-align: left;
     font: normal normal 600 16px/23px Montserrat;
     letter-spacing: 0px;
@@ -250,13 +248,12 @@ article{
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    position: absolute; /* nustatome poziciją absolute, kad galėtume absoliučiai pozicionuoti tekstą */
-    top: 50%; /* nustatome aukštį 50% */
-    left: 50%; /* nustatome plotį 50% */
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 .Tabs-register {
-    /*padding-left: 305px;*/
     padding-top: 150px;
 }
 h2{
@@ -358,9 +355,6 @@ h6 {
 .title-cont {
     display: flex;
     align-items: center;
-}
-.title-flex {
-
 }
 .icon {
     background-color: #E27866;
@@ -655,4 +649,104 @@ h5 {
     font: normal normal normal 18px/14px Montserrat;
     opacity: 0.5;
     letter-spacing: 0px;
+}
+
+@media (max-width: 768px) {
+    .nav-desktop {
+        display: none; 
+    }
+
+    .nav-mobile {
+        display: block; 
+    }
+    main {
+        display: grid;
+        height: 800px;
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+    .main-meniu img {
+        display: none;
+    }
+    .form-tab {
+        padding-left: 150px;
+    }
+  
+    article {
+        
+        display: grid;
+    }
+    .section-one {
+        display: grid;
+    }
+    .h5 {
+       text-align: center; 
+    }
+    .tabs-button {
+        display: flex;
+        
+    }
+    .tabs {
+        margin-right: 30px;
+    }
+
+    .text4{
+        padding-left: 230px;
+    }
+    .why {
+        padding-left: 70px;
+    }
+    .column {
+        padding-right: 30px;
+    }
+    .card-flex {
+        display: flex;
+    }
+    .h5option {
+        padding-left: 250px;
+    }
+    .text6 {
+        padding-left: 250px;
+    }
+    .options-name img {
+        padding-left: 370px;
+    }
+    .card-flex {
+        display: flex;
+        overflow-x: auto; 
+        -webkit-overflow-scrolling: touch; 
+        scrollbar-width: none; 
+        -ms-overflow-style: none; 
+    }
+    .card-flex::-webkit-scrollbar {
+        display: none; 
+    }
+    .pricing-cards {
+        flex: 0 0 auto; 
+        width: 80%; 
+        margin-right: 10px; 
+    }
+    .contact-us-form {
+        padding-left: 200px ;
+    }
+    .card-scroll{
+        margin-left: 50px;
+    }
+    .blue-linie {
+        margin-left: 380px;
+    }
+    .feedback-titel {
+        padding-left: 90px;
+    }
+
+    footer{
+        display: grid;
+    }
+    .footer {
+        padding-left: 45px;
+    }
+    .footer-text {
+       padding-left: 250px;
+       padding-top: 0;
+    }
 }

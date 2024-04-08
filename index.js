@@ -29,7 +29,7 @@ function showTab(tabName) {
 
 // Lentelės validacija //
 
-/*function submitForm(event) {
+function submitForm(event) {
   event.preventDefault(); 
 
   const firstNameInput = document.getElementById('first-name');
@@ -50,8 +50,8 @@ function showTab(tabName) {
     return false; 
   }
 
-  if (isNaN(phoneNumber) || phoneNumber.trim() === '' || phoneNumber.length !== 10) {
-    alert('Phone number should be a 10-digit number!');
+  if (isNaN(phoneNumber) || phoneNumber.trim() === '' || phoneNumber.length !== 11) {
+    alert('Phone number should be a 11-digit number!');
     return false; 
   }
 
@@ -61,30 +61,10 @@ function showTab(tabName) {
   return true;
 }
 
-function sendFormData(firstName, lastName, phoneNumber) {
 
-}*/
+// Burgeris //
 
-document.addEventListener("DOMContentLoaded", function () {
-  const submitButtons = document.querySelectorAll("input[type='submit']");
-
-  submitButtons.forEach(function (button) {
-    button.addEventListener("click", function (event) {
-      const form = button.closest("form");
-      const inputs = form.querySelectorAll("input[required]");
-      let isEmpty = false;
-
-      inputs.forEach(function (input) {
-        if (input.value.trim() === "") {
-
-        }
-      });
-
-      if (isEmpty) {
-        event.preventDefault();
-        alert("Please enter the requested data");
-        return false;
-      }
-    });
-  });
-}) ;
+function toggleMobileMenu() {
+  var navMobileMenu = document.getElementById('nav-mobile-menu');
+  navMobileMenu.classList.toggle('active'); 
+}

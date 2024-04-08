@@ -15,8 +15,7 @@
         <div class="navimg">
           <img src="file:///C:/Users/Asus/Downloads/cheshire-county-hygiene-services%20(3).svg">
         </div>
-        <div id="burger"></div>
-        <div class="nav">
+        <div class="nav-desktop">
            <nav>
               <a href="#" onclick="scrollToSection('Features')">Features</a>
               <a href="#" onclick="scrollToSection('About')">About</a>
@@ -24,17 +23,22 @@
               <a href="#" onclick="scrollToSection('Reviews')">Reviews</a>
               <a href="#" onclick="scrollToSection('Contact')">Contact</a>
           </nav>
-        </div>
+        </disv>
         <div id="nav-mobile" class="nav-mobile">
-          <nav>
-            <a href="Features">Features</a>
-            <a href="About">About</a>
-            <a href="Pricing">Pricing</a>
-            <a href="Reviews">Reviews</a>
-            <a href="Contact">Contact</a>
-         </nav>
+          <div id="burger">
+            <img src="file:///C:/Users/Asus/Downloads/menu%20(2).svg" alt="Menu" onclick="toggleMobileMenu()">
+          </div>
+          <div id="nav-mobile-menu" class="nav-mobile-menu">
+           <nav>
+              <a href="Features">Features</a>
+              <a href="About">About</a>
+              <a href="Pricing">Pricing</a>
+              <a href="Reviews">Reviews</a>
+              <a href="Contact">Contact</a>
+           </nav>
+          </div> 
         </div>
-    </header>
+      </header>
     <main>
       <div class="main-meniu">
         <img src="file:///C:/Users/Asus/Downloads/cheshire-county-hygiene-services%20(2).svg">
@@ -42,7 +46,7 @@
         <div class="line">
           <img src="https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A5f8a2ec0-bcf2-44e4-836a-71ce372bfb78&params=version%3A0&token=1712157192_da39a3ee_05fa48996587238baaf8edd8dbff128fc0575e52&api_key=CometServer1">
         </div>
-        <p>Insipidity the sufficient discretion imprudence resolution sir him decisively.</br> Proceed how any engaged visitor. 
+        <p class="main-text">Insipidity the sufficient discretion imprudence resolution sir him decisively.</br> Proceed how any engaged visitor. 
           Explained propriety of out perpetual his you.</br> Feel sold off felt nay rose met you. 
           We so entreaties cultivated astonished is.
         </p>
@@ -65,7 +69,7 @@
            <input class="option" type="radio" name="subscription" value="yearly"/>YEARLY
          </label>
         </form>
-       <button type="submit" class="started">GET STARTED</button>
+       <input type="submit" class="started">GET STARTED</input>
       </div>
     </main>
     <div class="socmedia">
