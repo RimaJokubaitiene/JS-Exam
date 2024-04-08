@@ -671,24 +671,66 @@ h5 {
     .form-tab {
         padding-left: 150px;
     }
-  
+    .socmedia {
+        padding-left: 80px;
+    }
+    .logo img {
+        margin-left: auto;
+        padding-right: 30px;
+    }
+    .logo {
+        padding-left: 30px;
+    }
+
     article {
         
         display: grid;
+        height: 750px;
     }
     .section-one {
         display: grid;
+        height: 750px;
     }
     .h5 {
        text-align: center; 
     }
     .tabs-button {
         display: flex;
-        
+        padding-top: 50px;
+        padding-left: 190px;
+    }
+    .Tabs-register {
+        padding-top: 0px;
+        padding-left: 100px;
+    }
+    .Tabs-apply {
+        padding-top: 0px;
+        padding-left: 100px;
+    }
+    .Tabs-receive {
+        padding-top: 0px;
+        padding-left: 100px;
+    }
+    .tabs-galery {
+        padding-top: 0px;
+        padding-left: 100px;
+    }
+    .tabs-galery {
+        overflow-x: auto; 
+        white-space: nowrap; 
     }
     .tabs {
         margin-right: 30px;
     }
+    .section-logo img {
+       width: 389px;
+       height: 169px;
+    }
+    .section-logo{
+        padding-top: 50px;
+    }
+ 
+
 
     .text4{
         padding-left: 230px;
