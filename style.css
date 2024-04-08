@@ -35,6 +35,17 @@ a {
 .nav-mobile {
     display: none;
 }
+.nav-desktop {
+    display: block;
+}
+#burger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
 main{
     background-image: url("https://public-v2links.adobecc.com/71297cf3-7ddc-40af-70c4-ce8fda78a719/component?params=component_id%3A1d0e71a5-c99e-4efd-b540-f75e6b91aa1b&params=version%3A0&token=1712578705_da39a3ee_43090824fb2d093520c3c8b86ce0589a71c381ca&api_key=CometServer1");
     background-size: cover; 
@@ -659,6 +670,17 @@ h5 {
     .nav-mobile {
         display: block; 
     }
+    
+    .nav-mobile-menu {
+        display: none; 
+    }
+    #burger {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        position: absolute;
+    }
+
     main {
         display: grid;
         height: 800px;

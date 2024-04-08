@@ -62,9 +62,3 @@ function submitForm(event) {
 }
 
 
-// Burgeris //
-
-function toggleMobileMenu() {
-  var navMobileMenu = document.getElementById('nav-mobile-menu');
-  navMobileMenu.classList.toggle('active'); 
-}

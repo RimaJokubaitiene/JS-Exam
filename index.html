@@ -25,9 +25,7 @@
           </nav>
         </disv>
         <div id="nav-mobile" class="nav-mobile">
-          <div id="burger">
-            <img src="file:///C:/Users/Asus/Downloads/menu%20(2).svg" alt="Menu" onclick="toggleMobileMenu()">
-          </div>
+          <div id="burger">&#9776</div>
           <div id="nav-mobile-menu" class="nav-mobile-menu">
            <nav>
               <a href="Features">Features</a>
@@ -69,7 +67,7 @@
            <input class="option" type="radio" name="subscription" value="yearly"/>YEARLY
          </label>
         </form>
-       <input type="submit" class="started">GET STARTED</input>
+       <button id="started" type="submit" class="started">GET STARTED</button>
       </div>
     </main>
     <div class="socmedia">
@@ -308,7 +306,7 @@
       <p class="contact-titel">CONTACT US</p>
       <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <div class="contact-us-form">
-        <form class="form-inside1">
+        <form class="form-inside1" onsubmit="return submitForm(event)">
           <div class="input">
             <input type="text" placeholder="First name">
             <input type="text" placeholder="Last name">
