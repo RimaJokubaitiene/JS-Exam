@@ -790,6 +790,9 @@ h5 {
         width: 80%; 
         margin-right: 10px; 
     }
+    .pricing-cards-bigest {
+        padding-right: 60px;
+    }
     .contact-us-form {
         padding-left: 200px ;
     }
